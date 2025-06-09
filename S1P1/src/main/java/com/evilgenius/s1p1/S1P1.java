@@ -1,3 +1,4 @@
+// Project 001  -   Type a message, press two buttons, and the computer will repeat it.
 
 package com.evilgenius.s1p1;
 
