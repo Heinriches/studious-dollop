@@ -10,9 +10,24 @@ import javax.swing.*;
 public class S1P2 {
 
     public static void main(String[] args) {
+        // variables:
+        int secretPassword = 123456;
+        int input;
+
         
-        String input = JOptionPane.showInputDialog("What's your name?");
+        // input
+        input = Integer.parseInt(JOptionPane.showInputDialog("What is your guess for the password?"));
         
-        System.out.println("Hello World!");
+        // Processing:
+        while(input != secretPassword){
+            if(input < secretPassword){
+                System.out.println("You guessed wrong (too low)!");
+            } else{
+                System.out.println("You guessed wrong (too high)!");
+            }
+            
+            input = Integer.parseInt(JOptionPane.showInputDialog("What is your new guess for the password?"));
+        }
+        
     }
 }
