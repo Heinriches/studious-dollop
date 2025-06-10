@@ -31,7 +31,7 @@ public class S1P2__book {
             JOptionPane.showMessageDialog(null, "YOU GOT THE SECRET-MESSAGE!");
         }else{
             // if user got it wrong, tell him/ her:
-            JOptionPane.showMessageDialog(null,  "WRONG! hahaha!");
+            JOptionPane.showMessageDialog(null,  "WRONG! Hahaha!");
         }
     }
 }
