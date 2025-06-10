@@ -11,4 +11,5 @@
         <maven.compiler.target>18</maven.compiler.target>
         <exec.mainClass>com.evilgenius.s1p2.S1P2</exec.mainClass>
     </properties>
+    <name>S1P2__book</name>
 </project>
