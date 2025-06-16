@@ -62,6 +62,14 @@ public class S1P3__me {
         System.out.println("1...");
         Thread.sleep(1000);
         
-        JOptionPane.showMessageDialog(null, "ANSWER = " +answer);
+        if(sign == 1){
+            JOptionPane.showMessageDialog(null, num1 +" + " +num2 +" = " +answer);
+        }else if(sign == 2){
+            JOptionPane.showMessageDialog(null, num1 +" + " +num2 +" = " +answer);
+        }else if(sign ==3){
+            JOptionPane.showMessageDialog(null, num1 +" * " +num2 +" = " +answer);
+        }else if(sign == 4){
+            JOptionPane.showMessageDialog(null, num1 +" / " +num2 +" = " +answer);
+        }
     }
 }
